@@ -18,31 +18,27 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-6 py-4 bg-white shadow">
 
-      <h1 className="text-xl font-bold text-[#244D3F]">
-        KeenKeeper
-      </h1>
-
-      <div className="flex gap-6">
+  <h1 className="text-xl font-bold text-[#244D3F]"> KeenKeeper </h1>
+     <div className="flex gap-6">
         {links.map((link) => {
           const isActive = pathname === link.path;
 
-          return (
-            <Link
-              key={link.path}
-              href={link.path}
-              className={`flex items-center gap-2 px-3 py-1 rounded-lg ${
+   return (
+     <Link
+     key={link.path}
+     href={link.path}
+     className={`flex items-center gap-2 px-3 py-1 rounded-lg ${
                 isActive
                   ? "bg-[#244D3F] text-white font-semibold"
                   : "text-gray-600 hover:text-[#244D3F]"
               }`}
             >
-              <FontAwesomeIcon icon={link.icon} />
-              {link.name}
-            </Link>
-          );
+  <FontAwesomeIcon icon={link.icon} />
+      {link.name}
+        </Link>
+            );
         })}
       </div>
-
-    </nav>
+ </nav>
   );
 }
