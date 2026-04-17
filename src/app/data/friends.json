@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://i.pravatar.cc/150?img=1",
+    "days": 12,
+    "tags": ["WORK"],
+    "status": "Almost Due"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://i.pravatar.cc/150?img=2",
+    "days": 25,
+    "tags": ["FAMILY"],
+    "status": "Overdue"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.pravatar.cc/150?img=3",
+    "days": 8,
+    "tags": ["WORK"],
+    "status": "On-Track"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://i.pravatar.cc/150?img=4",
+    "days": 40,
+    "tags": ["TRAVEL"],
+    "status": "Overdue"
+  },
+  {
+    "id": 5,
+    "name": "Sophia Lee",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "days": 5,
+    "tags": ["COLLEGE"],
+    "status": "On-Track"
+  },
+  {
+    "id": 6,
+    "name": "Michael Brown",
+    "picture": "https://i.pravatar.cc/150?img=6",
+    "days": 18,
+    "tags": ["WORK"],
+    "status": "Almost Due"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Davis",
+    "picture": "https://i.pravatar.cc/150?img=7",
+    "days": 60,
+    "tags": ["FAMILY"],
+    "status": "Overdue"
+  },
+  {
+    "id": 8,
+    "name": "Daniel Smith",
+    "picture": "https://i.pravatar.cc/150?img=8",
+    "days": 7,
+    "tags": ["GYM"],
+    "status": "On-Track"
+  },
+  {
+    "id": 9,
+    "name": "Ava Johnson",
+    "picture": "https://i.pravatar.cc/150?img=9",
+    "days": 30,
+    "tags": ["TRAVEL"],
+    "status": "Almost Due"
+  },
+  {
+    "id": 10,
+    "name": "Noah Martinez",
+    "picture": "https://i.pravatar.cc/150?img=10",
+    "days": 14,
+    "tags": ["WORK"],
+    "status": "On-Track"
+  },
+  {
+    "id": 11,
+    "name": "Isabella Clark",
+    "picture": "https://i.pravatar.cc/150?img=11",
+    "days": 50,
+    "tags": ["COLLEGE"],
+    "status": "Overdue"
+  },
+  {
+    "id": 12,
+    "name": "Liam Anderson",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "days": 9,
+    "tags": ["HOBBY"],
+    "status": "On-Track"
+  }
+]
