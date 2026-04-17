@@ -15,11 +15,11 @@ export default function Footer() {
                  <p className="text-sm mb-6 max-w-xl mx-auto"> Your personal shelf of meaningful connections.Browse,tend,and nurture the relationships that matter most. </p>
 
             <div className="flex justify-center gap-6 text-xl mb-6">
-
-                 <FontAwesomeIcon icon={faFacebook} className="hover:scale-110 cursor-pointer" />
-                 <FontAwesomeIcon icon={faTwitter} className="hover:scale-110 cursor-pointer" />
+ 
                  <FontAwesomeIcon icon={faYoutube} className="hover:scale-110 cursor-pointer" />
-
+                 <FontAwesomeIcon icon={faFacebook} className="hover:scale-110 cursor-pointer" />
+                <FontAwesomeIcon icon={faTwitter} className="hover:scale-110 cursor-pointer" />
+               
             </div>
             </div>
 

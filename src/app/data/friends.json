@@ -87,23 +87,5 @@
     "days": 14,
     "tags": ["WORK"],
     "status": "On-Track"
-  },
-
-  {
-    "id": 11,
-    "name": "Isabella Clark",
-    "picture": "https://i.pravatar.cc/150?img=11",
-    "days": 50,
-    "tags": ["COLLEGE"],
-    "status": "Overdue"
-  },
-  
-  {
-    "id": 12,
-    "name": "Liam Anderson",
-    "picture": "https://i.pravatar.cc/150?img=12",
-    "days": 9,
-    "tags": ["HOBBY"],
-    "status": "On-Track"
   }
 ]
