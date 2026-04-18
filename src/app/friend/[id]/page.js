@@ -1,3 +1,4 @@
+
 import friends from "../../data/friends.json";
 export default async function FriendDetails({ params }) {
 
