@@ -6,16 +6,10 @@ KeenKeeper is a personal relationship management web app that helps users track 
 ---
 
 ## Screenshot
-<img width="1875" height="905" alt="image" src="https://github.com/user-attachments/assets/7be20e08-c536-44f2-a3c8-6ee5a0712b7b" />
-
-
-<img width="1905" height="972" alt="image" src="https://github.com/user-attachments/assets/082cc2d8-86ea-4b48-b14d-1c63f87df24d" />
-
-
-<img width="1877" height="890" alt="image" src="https://github.com/user-attachments/assets/025705c1-addd-4fd0-aa26-0fa08ea940fb" />
-
-
-<img width="1870" height="773" alt="image" src="https://github.com/user-attachments/assets/38cc4a77-5fc3-42ba-bdd3-ef2d65ef8de4" />
+<img width="1880" height="901" alt="image" src="https://github.com/user-attachments/assets/9a6027a9-4101-4971-9f72-55a08c19cf5d" />
+<img width="1865" height="801" alt="image" src="https://github.com/user-attachments/assets/b09e0800-b163-4812-a2f7-b79eccfe1b31" />
+<img width="1840" height="776" alt="image" src="https://github.com/user-attachments/assets/0e3b4e3c-6be1-449b-8ea2-7177d39d8769" />
+<img width="1920" height="905" alt="image" src="https://github.com/user-attachments/assets/d67073cd-dc0b-4a49-b1c2-680c9146ba7e" />
 
 ---
 
@@ -70,7 +64,7 @@ npm run dev
 ---
 
 ## Live Demo
-keenkeeperassignment7.netlify.app
+https://keenkeeper-herp.vercel.app/
 
 ---
 
