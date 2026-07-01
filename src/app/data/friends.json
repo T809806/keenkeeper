@@ -3,89 +3,146 @@
     "id": 1,
     "name": "David Kim",
     "picture": "https://i.pravatar.cc/150?img=1",
-    "days": 12,
-    "tags": ["WORK"],
-    "status": "Almost Due"
+    "email": "david.kim@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "Former colleague and trusted mentor. We enjoy discussing career growth over coffee.",
+    "goal": 30,
+    "next_due_date": "2026-07-20"
   },
-
   {
     "id": 2,
     "name": "Emma Wilson",
     "picture": "https://i.pravatar.cc/150?img=2",
-    "days": 25,
-    "tags": ["FAMILY"],
-    "status": "Overdue"
+    "email": "emma.wilson@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "My cousin who lives in another city. We usually catch up every month.",
+    "goal": 21,
+    "next_due_date": "2026-07-05"
   },
-
   {
     "id": 3,
     "name": "Lisa Nakamura",
     "picture": "https://i.pravatar.cc/150?img=3",
-    "days": 8,
-    "tags": ["WORK"],
-    "status": "On-Track"
+    "email": "lisa.nakamura@example.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["work"],
+    "bio": "Project teammate who always shares great ideas and productivity tips.",
+    "goal": 30,
+    "next_due_date": "2026-07-28"
   },
-
   {
     "id": 4,
     "name": "James Wright",
     "picture": "https://i.pravatar.cc/150?img=4",
-    "days": 40,
-    "tags": ["TRAVEL"],
-    "status": "Overdue"
+    "email": "james.wright@example.com",
+    "days_since_contact": 40,
+    "status": "overdue",
+    "tags": ["travel"],
+    "bio": "Travel buddy who loves exploring mountains and nature.",
+    "goal": 30,
+    "next_due_date": "2026-06-15"
   },
-
   {
     "id": 5,
     "name": "Sophia Lee",
     "picture": "https://i.pravatar.cc/150?img=5",
-    "days": 5,
-    "tags": ["COLLEGE"],
-    "status": "On-Track"
+    "email": "sophia.lee@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college"],
+    "bio": "Close university friend. We still meet for dinner whenever possible.",
+    "goal": 30,
+    "next_due_date": "2026-08-01"
   },
-
   {
     "id": 6,
     "name": "Michael Brown",
     "picture": "https://i.pravatar.cc/150?img=6",
-    "days": 18,
-    "tags": ["WORK"],
-    "status": "Almost Due"
+    "email": "michael.brown@example.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "Former manager who continues to guide my professional development.",
+    "goal": 21,
+    "next_due_date": "2026-07-12"
   },
-
   {
     "id": 7,
     "name": "Olivia Davis",
     "picture": "https://i.pravatar.cc/150?img=7",
-    "days": 60,
-    "tags": ["FAMILY"],
-    "status": "Overdue"
+    "email": "olivia.davis@example.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "My aunt who enjoys family gatherings and weekend video calls.",
+    "goal": 30,
+    "next_due_date": "2026-06-10"
   },
-
   {
     "id": 8,
     "name": "Daniel Smith",
     "picture": "https://i.pravatar.cc/150?img=8",
-    "days": 7,
-    "tags": ["GYM"],
-    "status": "On-Track"
+    "email": "daniel.smith@example.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["gym"],
+    "bio": "Gym partner who keeps me motivated with regular workout sessions.",
+    "goal": 14,
+    "next_due_date": "2026-07-15"
   },
-
   {
     "id": 9,
     "name": "Ava Johnson",
     "picture": "https://i.pravatar.cc/150?img=9",
-    "days": 30,
-    "tags": ["TRAVEL"],
-    "status": "Almost Due"
+    "email": "ava.johnson@example.com",
+    "days_since_contact": 30,
+    "status": "almost due",
+    "tags": ["travel"],
+    "bio": "Friend from a backpacking trip across Southeast Asia.",
+    "goal": 30,
+    "next_due_date": "2026-07-08"
   },
-
   {
     "id": 10,
     "name": "Noah Martinez",
     "picture": "https://i.pravatar.cc/150?img=10",
-    "days": 14,
-    "tags": ["WORK"],
-    "status": "On-Track"
-  }
+    "email": "noah.martinez@example.com",
+    "days_since_contact": 14,
+    "status": "on-track",
+    "tags": ["work"],
+    "bio": "Business partner who enjoys brainstorming innovative ideas together.",
+    "goal": 30,
+    "next_due_date": "2026-07-30"
+  },
+
+  {
+  "id": 11,
+  "name": "Grace Anderson",
+  "picture": "https://i.pravatar.cc/150?img=11",
+  "email": "grace.anderson@example.com",
+  "days_since_contact": 9,
+  "status": "on-track",
+  "tags": ["college"],
+  "bio": "College friend who loves reading books and meeting over coffee on weekends.",
+  "goal": 21,
+  "next_due_date": "2026-07-23"
+},
+{
+  "id": 12,
+  "name": "Ethan Carter",
+  "picture": "https://i.pravatar.cc/150?img=12",
+  "email": "ethan.carter@example.com",
+  "days_since_contact": 36,
+  "status": "overdue",
+  "tags": ["work"],
+  "bio": "Former teammate who enjoys discussing new technologies and startup ideas.",
+  "goal": 30,
+  "next_due_date": "2026-07-02"
+}
+
 ]

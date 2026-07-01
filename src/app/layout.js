@@ -4,9 +4,12 @@ import Footer from "./components/Footer";
 import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({ children }) {
+
   return (
+
     <html lang="en">
-      <body>
+
+     <body>
 
         <Navbar />
         {children}
@@ -14,6 +17,7 @@ export default function RootLayout({ children }) {
           <Toaster />
           
       </body>
+      
     </html>
   );
 }

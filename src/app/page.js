@@ -1,83 +1,98 @@
 import friends from "./data/friends.json";
+import FriendCard from "./components/FriendCard";
+import { FaUserPlus } from "react-icons/fa";
 
 export default function Home() {
+  const totalFriends = friends.length;
+
+  const onTrack = friends.filter(
+    (friend) => friend.status === "on-track"
+  ).length;
+
+  const needAttention = friends.filter(
+    (friend) =>
+      friend.status === "overdue" ||
+      friend.status === "almost due"
+  ).length;
+
   return (
- <div className="text-center py-16 px-4">
+    
+    <main className="max-w-7xl mx-auto px-5 py-10">
 
-      <h1 className="text-4xl md:text-5xl font-bold mb-4"> Friends to keep close in your life </h1>
-      <p className="text-gray-500 max-w-2xl mx-auto mb-6"> Your personal shelf of meaningful connections.Browse,tend,and nurture the relationships that matter most. </p>
-      <button className="bg-[#244D3F] text-white px-6 py-3 rounded-lg hover:bg-[#244D3F] transition flex items-center gap-2 mx-auto"> + Add a Friend </button>
+ <section className="text-center mb-12">
 
- <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-    <div className="p-6 rounded-xl shadow bg-white">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#244D3F] mb-4">
+          Friends to keep close in your life
+        </h1>
 
-      <h2 className="text-2xl font-bold"> 10 </h2>
-       <p className="text-gray-500"> Total Friends </p>
+        <p className="text-gray-500 max-w-2xl mx-auto mb-8">
+          Your personal shelf of meaningful connections. Browse, tend, and
+          nurture the relationships that matter most.
+        </p>
 
-   </div>
+        <button className="bg-[#244D3F] text-white px-6 py-3 rounded-lg flex items-center gap-2 mx-auto hover:bg-[#1c3b30] transition">
+          <FaUserPlus />
+          Add a Friend
+        </button>
 
-   <div className="p-6 rounded-xl shadow bg-white">
+      </section>
 
-      <h2 className="text-2xl font-bold"> 3 </h2>
-      <p className="text-gray-500"> On Track </p>
+ <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
 
-   </div>
+        <div className="bg-white rounded-xl shadow-md p-6 text-center">
+          <h2 className="text-3xl font-bold text-[#244D3F]">
+            {totalFriends}
+          </h2>
+          <p className="text-gray-500 mt-2">
+            Total Friends
+          </p>
+        </div>
 
-   <div className="p-6 rounded-xl shadow bg-white">
+        <div className="bg-white rounded-xl shadow-md p-6 text-center">
+          <h2 className="text-3xl font-bold text-green-600">
+            {onTrack}
+          </h2>
+          <p className="text-gray-500 mt-2">
+            On Track
+          </p>
+        </div>
 
-      <h2 className="text-2xl font-bold"> 6 </h2>
-      <p className="text-gray-500"> Need Attention </p>
+  <div className="bg-white rounded-xl shadow-md p-6 text-center">
 
-   </div>
+     <h2 className="text-3xl font-bold text-red-500">
+         {needAttention}
+    </h2>
+   <p className="text-gray-500 mt-2"> Need Attention </p>
 
-   <div className="p-6 rounded-xl shadow bg-white">
+ </div>
 
-          <h2 className="text-2xl font-bold"> 12 </h2>
-          <p className="text-gray-500"> Interactions This Month </p>
+ <div className="bg-white rounded-xl shadow-md p-6 text-center">
 
-   </div>
-   </div>
+     <h2 className="text-3xl font-bold text-blue-600"> 0 </h2>
+     <p className="text-gray-500 mt-2"> Interactions This Month </p>
 
-   <div className="mt-16 px-6 text-left">
+ </div>
 
-          <h2 className="text-xl font-bold mb-6"> Your Friends </h2>
+ </section>
 
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+ <section>
 
-       {friends.map((friend) => (
+        <h2 className="text-2xl font-bold mb-6"> Your Friends </h2>
 
-        <div key={friend.id} className="p-4 bg-white rounded-xl shadow text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-           <img src={friend.picture} alt={friend.name} className="w-16 h-16 mx-auto rounded-full mb-3" />
-           <h3 className="font-semibold"> {friend.name} </h3>
-           <p className="text-gray-500 text-sm"> {friend.days} days ago </p>
+          {friends.map((friend) => (
+            <FriendCard
+              key={friend.id}
+              friend={friend}
+            />
 
-       <div className="flex justify-center gap-2 mt-2">
+          ))}
 
-           {friend.tags.map((tag, index) => (
-           <span key={index} className="text-xs bg-gray-200 px-2 py-1 rounded"> {tag} </span>
-               ))}
+        </div>
 
-       </div>
+      </section>
 
-  <p className={`mt-3 text-sm text-white px-3 py-1 rounded-full inline-block ${
-    friend.status === "Overdue"
-      ? "bg-red-500"
-      : friend.status === "Almost Due"
-      ? "bg-yellow-500"
-      : "bg-[#244D3F]"
-  }`}
->
-  {friend.status}
-    </p>
-
-   </div>
-
-     ))}
-
-   </div>
-   </div>
-  </div>
-  
+    </main>
   );
 }

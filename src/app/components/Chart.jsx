@@ -12,22 +12,54 @@ export default function Chart({ data }) {
 
   const COLORS = ["#244D3F", "#82ca9d", "#8884d8"];
 
-  return (
+ return (
 
-    <div className="flex justify-center">
+  <div className="flex flex-col items-center">
 
-      <PieChart width={250} height={250}>
-        <Pie data={chartData} dataKey="value" outerRadius={80}>
-          {chartData.map((entry, index) => (
-            <Cell key={index} fill={COLORS[index]} />
-          ))}
+    <PieChart width={250} height={250}>
 
-        </Pie>
+      <Pie
+        data={chartData}
+        dataKey="value"
+        outerRadius={80}
+      >
+        {chartData.map((entry, index) => (
+          <Cell key={index} fill={COLORS[index]} />
+        ))}
 
-        <Tooltip />
+      </Pie>
 
-      </PieChart>
+      <Tooltip />
+
+    </PieChart>
+
+ <div className="mt-4 flex gap-6">
+
+   <div className="flex items-center gap-2">
+
+        <div className="w-4 h-4 rounded-full bg-[#244D3F]"> </div>
+        <span> Call </span>
+
+   </div>
+
+   <div className="flex items-center gap-2">
+
+      <div className="w-4 h-4 rounded-full bg-[#82ca9d]"> </div>
+
+        <span> Text </span>
+
+      </div>
+
+      <div className="flex items-center gap-2">
+
+        <div className="w-4 h-4 rounded-full bg-[#8884d8]"> </div>
+        <span> Video </span>
+        
+      </div>
 
     </div>
-  );
+
+  </div>
+);
+
 }
